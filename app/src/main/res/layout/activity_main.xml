@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp">
+    <EditText
+        android:id="@+id/edittext_talimShakli"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="talim shakli"></EditText>
+    <EditText
+        android:id="@+id/edittext_kursi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="kursi"></EditText>
+    <EditText
+        android:id="@+id/edittext_fannomi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="fannomi"></EditText>
+    <EditText
+        android:id="@+id/edittext_savol"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="savol"></EditText>
+    <EditText
+        android:id="@+id/edittext_variyant1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="1-variyant"></EditText>
+    <EditText
+        android:id="@+id/edittext_variyant2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="2-variyant"></EditText>
+    <EditText
+        android:id="@+id/edittext_variyant3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="3-variyant"></EditText>
+    <EditText
+        android:id="@+id/edittext_variyant4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="4-variyant"></EditText>
+    <EditText
+        android:id="@+id/edittext_togrijavob"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="tog'ri javob"></EditText>
+    <Button
+        android:id="@+id/btn_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ADD"
+        android:padding="20dp"
+        android:textSize="20dp"
+        android:layout_margin="20dp"
+        tools:ignore="InvalidId"></Button>
+
+
+
+</LinearLayout>
